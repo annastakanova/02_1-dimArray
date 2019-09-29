@@ -2,7 +2,7 @@
 //max(a1+a(2n), a2+a(2n−1),..., an+a(n+1)).
 
 
-//не работает
+
 package com.epam;
 
 public class Task16_1dim {
