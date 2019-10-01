@@ -10,6 +10,7 @@ public class Task15_1dim {
         double[] array = {0.2, -2.6, 4.0, -0.8, 7.0, 0.0, -6.6, 4.3, 9.8, 3.2, 1.7};
         for(int i = 4; i < 9; i++) {
             System.out.println(array[i]);
+
         }
     }
 }
