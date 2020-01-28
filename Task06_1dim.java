@@ -1,7 +1,6 @@
-//Дана последовательность чисел а1 ,а2 ,..., аn.
-// Указать наименьшую длину числовой оси, содержащую все эти числа
-
 package com.epam;
+//Дана последовательность чисел а1 ,а2 ,..., аn.
+// Указать наименьшую длину числовой оси, содержащую все эти числа
 
 public class Task06_1dim {
     public static void main(String[] args) {
@@ -11,12 +10,12 @@ public class Task06_1dim {
         int len = 0;
 
         for(int i = 1; i < array.length; i++) {
-                if (array[i] > max)
+            if (array[i] > max)
                 max = array[i];
             if (array[i] < min)
                 min = array[i];
         }
         len = max-min;
-        System.out.println("наименьшая длина числовой оси, содержащую все данные числа = "+len);
+        System.out.println("наименьшая длина числовой оси, содержащую все данные числа = "+len);
     }
 }
